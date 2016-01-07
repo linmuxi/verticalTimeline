@@ -1,0 +1,95 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main{
+	margin: 20px 0px 20px 500px;
+}
+
+.timeline{
+	width: 4px;
+	background-color: rgb(204,204,204);
+	position: relative;
+}
+
+.point{
+	width: 15px;
+	height: 15px;
+	border-radius:50%;
+	background-color: rgb(140,140,140);
+	margin: 20px 0px 20px -7px;
+	display: inline-block;
+	border: 2px solid #FFF;
+}
+.point .left{
+	position: absolute;
+	right: 20px;
+	margin-top: -5px;
+}
+.point .right{
+	position: absolute;
+	left: 20px;
+	margin-top: -5px;
+}
+
+.point p{
+	color: rgb(140,140,140);
+}
+
+.point p:hover{
+	color: #CBFF5F;
+}
+
+.tip{
+	height:120px;
+}
+
+.tip .left{
+	position: absolute;
+	right: 20px;
+}
+
+.tip .right{
+	position: absolute;
+	left: 20px;
+}
+
+.tip-box{
+	padding: 10px 10px;
+	background-color: rgb(125,125,125);
+	color: #FFF;
+	border-radius:8px;
+	white-space:nowrap;
+	line-height: 1.4em;
+	letter-spacing: 2px;
+}
+
+.tip-box .arrows{
+	width: 15px;
+	height: 15px;
+	z-index: -1;
+	background-color: rgb(125,125,125);
+	display: inline-block;
+	position: absolute;
+	top: 40%;
+	transform:rotate(50deg);
+	-ms-transform:rotate(50deg);
+	-moz-transform:rotate(50deg);
+	-webkit-transform:rotate(50deg);
+	-o-transform:rotate(50deg);
+}
+
+.tip-box .left-arrows{
+	left: -3px;
+}
+
+.tip-box .right-arrows{
+	right: -3px;
+}
+
+.tip-box .work-detail{
+	display: block;
+}
+.tip-box .work-time{
+	padding-left: 20px;
+}
